@@ -8,6 +8,7 @@ body
   left 0
   margin 0 auto
   width 90%
+  font-weight 700
 
 *
   text-rendering optimizeLegibility !important
@@ -16,10 +17,6 @@ body
 a
   text-decoration none
   color $black
-  font-weigth 700
-
-  p
-    font-weight 400
 
 ul
   list-style none
@@ -37,7 +34,7 @@ ul
       letter-spacing .5em
 
 h4
-  font-weight 700
+  font-size 1.1em
   margin 0
 
 ul.events
