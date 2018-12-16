@@ -3,8 +3,9 @@ body{font-family:"Libre Baskerville",serif;font-weight:400;font-size:15px;max-wi
 a{text-decoration:none;color:#010101;font-weigth:700;}
 a p{font-weight:400;}
 ul{list-style:none;margin:0;padding:0;}
-h1.title{letter-spacing:0.2em;font-size:1.5em;-webkit-transition:letter-spacing 500ms;transition:letter-spacing 500ms;}
-h1.title:hover{letter-spacing:0.5em;}
+.title{font-size:1.5em;}
+.title .space{letter-spacing:0.2em;-webkit-transition:letter-spacing 500ms;transition:letter-spacing 500ms;}
+.title:hover .space{letter-spacing:0.5em;}
 h4{font-weight:700;margin:0;}
 ul.events{list-style:none;}
 ul.events li{margin:2em 0;}
