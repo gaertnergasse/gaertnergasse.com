@@ -1,0 +1,20 @@
+{
+  "name": "gaertnergasse.com",
+  "version": "0.23.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mspg build serve watch",
+    "build": "NODE_ENV=production mspg clean build zip",
+    "build:serve": "NODE_ENV=production mspg build serve zip",
+    "publish": "NODE_ENV=production mspg build zip publish"
+  },
+  "keywords": [],
+  "author": "Jascha Ehrenreich <jascha@jaeh.at>",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "@mspg/core": "github:mspg/core",
+    "@mspg/transpile-posthtml": "github:mspg/transpile-posthtml",
+    "@mspg/transpile-stylus": "github:mspg/transpile-stylus"
+  }
+}
