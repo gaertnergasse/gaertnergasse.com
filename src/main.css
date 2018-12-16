@@ -26,13 +26,15 @@ ul
   margin 0
   padding 0
 
-h1.title
-  letter-spacing .2em
+.title
   font-size 1.5em
-  transition letter-spacing 500ms
+  .space
+    letter-spacing .2em
+    transition letter-spacing 500ms
 
   &:hover
-    letter-spacing .5em
+    .space
+      letter-spacing .5em
 
 h4
   font-weight 700

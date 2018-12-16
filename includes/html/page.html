@@ -17,28 +17,21 @@
   </head>
   <body>
     <block name="header">
-      <h1 class="title"><a href="/">&lt;&lt; Gärtnergasse</a></h1>
+      <h1 class="title">
+        <a href="{{ WEB_ROOT }}">
+          &lt;&lt; <span class="space">Gärtnergasse</span>
+        </a>
+      </h1>
     </block>
     <block name="content"></block>
     <footer>
-      <block name="footer"></block>
-      <div class="about">
-        <p>Gärtnergasse is an artist run exhibition space.
-        <p>
-          It is run by Julija Zaharijević and Julia Znoj as Handbag,
-          Philipp Friedrich and Eugen Wist.
+      <block name="footer">
+        <p class="title">
+          <a href="{{ WEB_ROOT }}">
+            &lt;&lt; <span class="space">Gärtnergasse</span>
+          </a>
         </p>
-        <p>
-          Former members are
-          <a href="{{ WEB_ROOT }}events/http:/e-plus-plus.info/">e++</a>
-          and Tim Hartmann.
-        </p>
-      </div>
-      <div class="contact">
-        <p>Ottakringer Straße 44, 1170 Vienna, Austria</p>
-        <a href="mailto:gaertnergasse1@gmail.com" class="txtlink">contact@gaertnergasse.com</a>
-        <a href="https://www.facebook.com/Gaertnergasse1/" class="txtlink">Facebook</a>
-      </div>
+      </block>
     </footer>
     <block name="scripts"></block>
   </body>
