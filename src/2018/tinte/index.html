@@ -1,0 +1,61 @@
+<extends src="page.html">
+  <block name="title">
+    <meta name="description" content="Tinte is a solo show by Philip Pichler at Gärtnergasse in Vienna, Austria.">
+    <title>Gärtnergasse - Philip Pichler - Tinte</title>
+  </block>
+
+  <block name="content">
+    <div class="about">
+      <h4>Philip Pichler - Tinte</h4>
+      <p>17th – 23rd October, 2016</p>
+
+      <p>"Fabulant" Eva said when she saw the objects a few days ago.</p>
+      <p>Friends wrote down their adventure tales for me and these are their travel companions.</p>
+      <p>
+        with Tenzing Barshee, Sho Hasegawa,
+        Philipp Köster, Mariko Minoguchi,
+        Sarah Octobre, Rebekka Seubert
+      </p>
+      <p>invited by Eugen Wist</p>
+      <p>Readers: Julia Znoj, Yuri Minoguchi, Philip Pichler</p>
+      <p>Photos: Philipp Friedrich</p>
+    </div>
+
+    <div class="frame">
+      <img src="./img/01.jpg">
+      <img src="./img/02.jpg">
+      <img src="./img/03.jpg">
+      <img src="./img/04.jpg">
+      <img src="./img/05.jpg">
+      <img src="./img/06.jpg">
+      <img src="./img/07.jpg">
+      <img src="./img/08.jpg">
+    </div>
+    <div id="container">
+      <canvas id="canvas"></canvas>
+    </div>
+    <div class="bbplayer">
+      <span class="bb-rewind"></span>
+      <span class="bb-play"></span>
+      <span class="bb-forward"></span>
+      <div class="playerWindow">
+        <div class="bb-track-display">
+          <span class="bb-trackTime">--:--</span>
+          <span class="bb-trackTitle">&nbsp;</span>
+          <span class="bb-trackLength">--:--</span>
+        </div>
+      </div>
+      <audio loop>
+        <source src="./media/1.mp3" type="audio/mp3">
+        <source src="./media/2.mp3" type="audio/mp3">
+        <source src="./media/3.mp3" type="audio/mp3">
+        <source src="./media/4.mp3" type="audio/mp3">
+        <source src="./media/5.mp3" type="audio/mp3">
+        <source src="./media/6.mp3" type="audio/mp3">
+      </audio>
+    </div>
+  </block>
+  <block name="scripts">
+    <script src="./tinte.js"></script>
+  </block>
+</extends>
