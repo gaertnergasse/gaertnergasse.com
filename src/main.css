@@ -1,6 +1,5 @@
 body
   font-family "Libre Baskerville", serif
-  font-weight 400
   font-size 15px
   max-width 1000px
   position relative
@@ -95,8 +94,11 @@ iframe
     margin 0
     font-size .8em
 
-.italic
+i, .italic
   font-style italic
+
+b, .bold
+  font-weight 700
 
 .wide
   display none
