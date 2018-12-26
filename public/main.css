@@ -1,13 +1,12 @@
-body{font-family:"Libre Baskerville",serif;font-weight:400;font-size:15px;max-width:1000px;position:relative;top:0;left:0;margin:0 auto;width:90%;}
+body{font-family:"Libre Baskerville",serif;font-weight:400;font-size:15px;max-width:1000px;position:relative;top:0;left:0;margin:0 auto;width:90%;font-weight:700;}
 *{text-rendering:optimizeLegibility !important;-moz-osx-font-smoothing:grayscale;}
-a{text-decoration:none;color:#010101;font-weigth:700;}
-a p{font-weight:400;}
+a{text-decoration:none;color:#010101;}
 ul{list-style:none;margin:0;padding:0;}
 .title{font-size:1.5em;}
 .title .space{letter-spacing:0.2em;-webkit-transition:letter-spacing 500ms;transition:letter-spacing 500ms;}
-.title:hover .space{letter-spacing:0.5em;}
-h4{font-weight:700;margin:0;}
-ul.events{list-style:none;}
+h4{font-size:1.1em;margin:0;}
+ul.events{list-style:none;font-size:1.1em;}
+ul.events h4{font-size:1em;}
 ul.events li{margin:2em 0;}
 ul.events li a:hover h4{text-decoration:underline;}
 ul.events li p{line-height:1;margin:0.5em;}
