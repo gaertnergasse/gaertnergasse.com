@@ -25,13 +25,14 @@ ul
 
 .title
   font-size 1.5em
+
   .space
     letter-spacing .2em
     transition letter-spacing 500ms
 
-  &:hover
-    .space
-      letter-spacing .5em
+  // &:hover
+  //   .space
+  //    letter-spacing .5em
 
 h4
   font-size 1.1em
@@ -39,6 +40,10 @@ h4
 
 ul.events
   list-style none
+  font-size 1.1em
+
+  h4
+    font-size 1em
 
   li
     margin 2em 0
