@@ -7,7 +7,7 @@
     "start": "mspg build serve watch",
     "build": "NODE_ENV=production mspg clean build zip",
     "build:serve": "NODE_ENV=production mspg build serve zip",
-    "publish": "NODE_ENV=production mspg build zip publish"
+    "publish": "NODE_ENV=production mspg publish"
   },
   "keywords": [],
   "author": "Jascha Ehrenreich <jascha@jaeh.at>",
