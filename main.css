@@ -20,5 +20,8 @@ iframe{max-width:100%;max-height:90%;max-height:90vh;}
 .annotate{margin:1em 0;display:inline-block;}
 .annotate img{margin:0;}
 .annotate p{margin:0;font-size:0.8em;}
+.italic{font-style:italic;}
+.wide{display:none;}
+@media screen and (min-width:500px){.narrow{display:none;} .wide{display:inherit;}}
 @media screen and (min-height:1500px){body{max-width:1200px;}}
 /*# sourceMappingURL=stylus.css.map */
