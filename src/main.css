@@ -95,6 +95,18 @@ iframe
     margin 0
     font-size .8em
 
+.italic
+  font-style italic
+
+.wide
+  display none
+
+@media screen and (min-width: 500px)
+  .narrow
+    display none
+  .wide
+    display inherit
+
 @media screen and (min-height: 1500px)
   body
     max-width 1200px
