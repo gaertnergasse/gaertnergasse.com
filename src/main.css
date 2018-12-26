@@ -54,7 +54,7 @@ ul.events
 
     p
       line-height 1
-      margin 0.5em
+      margin .5em 0
 
     &.upcoming
       color #ff0000
@@ -93,6 +93,7 @@ iframe
     margin 0
   p
     margin 0
+    font-size .8em
 
 @media screen and (min-height: 1500px)
   body
