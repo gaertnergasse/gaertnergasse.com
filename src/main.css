@@ -85,6 +85,17 @@ iframe
 .about
   margin 5em 0 2em
 
+.annotate {
+  margin: 1em 0;
+
+  img {
+    margin 0;
+  }
+  p {
+    margin: 0;
+  }
+}
+
 @media screen and (min-height: 1500px)
   body
     max-width 1200px
