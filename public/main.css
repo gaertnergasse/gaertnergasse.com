@@ -1,4 +1,4 @@
-body{font-family:"Libre Baskerville",serif;font-weight:400;font-size:15px;max-width:1000px;position:relative;top:0;left:0;margin:0 auto;width:90%;font-weight:700;}
+body{font-family:"Libre Baskerville",serif;font-size:15px;max-width:1000px;position:relative;top:0;left:0;margin:0 auto;width:90%;font-weight:700;}
 *{text-rendering:optimizeLegibility !important;-moz-osx-font-smoothing:grayscale;}
 a{text-decoration:none;color:#010101;}
 ul{list-style:none;margin:0;padding:0;}
@@ -20,7 +20,8 @@ iframe{max-width:100%;max-height:90%;max-height:90vh;}
 .annotate{margin:1em 0;display:inline-block;}
 .annotate img{margin:0;}
 .annotate p{margin:0;font-size:0.8em;}
-.italic{font-style:italic;}
+i,.italic{font-style:italic;}
+b,.bold{font-weight:700;}
 .wide{display:none;}
 @media screen and (min-width:500px){.narrow{display:none;} .wide{display:inherit;}}
 @media screen and (min-height:1500px){body{max-width:1200px;}}
