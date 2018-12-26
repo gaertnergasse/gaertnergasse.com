@@ -9,8 +9,7 @@
     "build:serve": "NODE_ENV=production mspg build serve zip",
     "publish": "NODE_ENV=production mspg publish"
   },
-  "keywords": [],
-  "author": "Jascha Ehrenreich <jascha@jaeh.at>",
+  "author": "gaertnergasse <gaertnergasse1@gmail.com>",
   "license": "AGPL-3.0",
   "devDependencies": {
     "@mspg/core": "github:mspg/core",
