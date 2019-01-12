@@ -107,7 +107,7 @@ b, .bold
   .narrow
     display none
   .wide
-    display inherit
+    display inline
 
 @media screen and (min-height: 1500px)
   body
