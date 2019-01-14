@@ -7,7 +7,8 @@
     "start": "mspg build serve watch",
     "build": "NODE_ENV=production mspg clean build zip",
     "build:serve": "NODE_ENV=production mspg build serve zip",
-    "publish": "NODE_ENV=production mspg publish"
+    "publish": "NODE_ENV=production mspg publish",
+    "serve": "NODE_ENV=production mspg serve"
   },
   "author": "gaertnergasse <gaertnergasse1@gmail.com>",
   "license": "AGPL-3.0",
