@@ -12,6 +12,6 @@ module.exports = {
   },
   year,
   IGNORE_EXTENSIONS: ['ai', 'psd', 'xcf'],
-  WEB_ROOT: 'https://gaertnergasse.github.io/gaertnergasse.com/',
+  WEB_ROOT: '/gaertnergasse.com/',
   MAX_IMAGE_WIDTH: 1500,
 }
