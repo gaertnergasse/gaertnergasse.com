@@ -47,9 +47,6 @@ ul.events
   li
     margin 2em 0
 
-    a:hover
-      h4
-        text-decoration underline
 
     p
       line-height 1
@@ -60,6 +57,10 @@ ul.events
 
     a
       display block
+
+      &:hover
+        h4
+          text-decoration underline
 
 img
   max-width 100%
@@ -77,22 +78,23 @@ img
       text-align center
 
 iframe
-  max-width 100%
   max-height 90%
   max-height 90vh
+  max-width 100%
 
 .about
   margin 5em 0 2em
 
 .annotate
-  margin 1em 0
   display inline-block
+  margin 1em 0
+  width 100%
 
   img
     margin 0
   p
-    margin 0
     font-size .8em
+    margin 0
 
 i, .italic
   font-style italic
