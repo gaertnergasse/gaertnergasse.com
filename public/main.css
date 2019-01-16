@@ -23,6 +23,7 @@ iframe{max-height:90%;max-height:90vh;max-width:100%;}
 i,.italic{font-style:italic;}
 b,.bold{font-weight:700;}
 .wide{display:none;}
+#map img{max-height:none;max-width:none;}
 @media screen and (min-width:500px){.narrow{display:none;} .wide{display:inline;}}
 @media screen and (min-height:1500px){body{max-width:1200px;}}
 /*# sourceMappingURL=main.css.map */
