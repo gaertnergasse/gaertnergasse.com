@@ -105,6 +105,10 @@ b, .bold
 .wide
   display none
 
+#map img
+  max-height none
+  max-width none
+
 @media screen and (min-width: 500px)
   .narrow
     display none
