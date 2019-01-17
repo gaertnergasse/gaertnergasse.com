@@ -109,6 +109,9 @@ b, .bold
   max-height none
   max-width none
 
+.bka
+  width auto
+
 @media screen and (min-width: 500px)
   .narrow
     display none
