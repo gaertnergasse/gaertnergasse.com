@@ -13,4 +13,6 @@ module.exports = {
   year,
   IGNORE_EXTENSIONS: ['ai', 'psd', 'xcf', 'py', 'sh', 'xml'],
   MAX_IMAGE_WIDTH: 1500,
+  MAX_IMAGE_HEIGHT: 1500,
+  IMAGE_QUALITY: 90,
 }
