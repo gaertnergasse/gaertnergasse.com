@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "mspg build serve watch",
-    "build": "NODE_ENV=production mspg clean build zip",
-    "build:serve": "NODE_ENV=production mspg build serve zip",
+    "build": "NODE_ENV=production mspg clean build",
+    "build:serve": "NODE_ENV=production mspg build serve",
     "publish": "NODE_ENV=production mspg publish",
     "serve": "NODE_ENV=production mspg serve",
     "resizeImages": "mspg resize-images"
