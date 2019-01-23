@@ -1,0 +1,69 @@
+
+html, body {
+  padding:0;
+  margin: 0;
+  height: 100%;
+  overflow-y: hidden;
+  max-width: inherit;
+  width: auto;
+}
+
+canvas{
+   margin-left:-40px;
+   position: fixed;
+   bottom: 0px;
+   left: 0px;
+   z-index: -10;
+}
+
+#imgholder img {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  z-index: -12;
+  width: auto;
+  max-width: inherit;
+  max-height: inherit;
+  margin: 0 .5em;
+}
+
+#imgholder {
+  white-space: nowrap;
+  height: 100%;
+}
+
+.infotext, #scrollinfo {
+  display: inline-block;
+  padding: 20px 40px 10px 50px;
+  width: 45%;
+  white-space: normal;
+}
+
+.infotext { vertical-align: top; }
+
+.txtright { text-align: right; padding-top: 16px;}
+.backlink { margin-left: 0px; }
+.prespace { padding-top: 16px; }
+
+p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #666;
+}
+
+@media only screen and (max-width: 720px) {
+  .infotext p {
+    font-size: 12px;
+  }
+  .infotext {
+    padding: 12px 12px 5px 12px;
+  }
+}
+

@@ -4,40 +4,48 @@
     <title>Gärtnergasse - Philip Pichler - Tinte</title>
   </block>
 
+  <block name="styles">
+    <link rel="stylesheet" href="{{ DIR }}css/horizontal.css">
+    <link rel="stylesheet" href="{{ DIR }}css/audioplayer.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui' name='viewport' />
+  </block>
+
   <block name="content">
-    <div class="about">
-      <h4>Philip Pichler - Tinte</h4>
-      <p>17th – 23rd October, 2016</p>
 
-      <p>invited by Eugen Wist</p>
-      <p>readers: Julia Znoj, Yuri Minoguchi, Philip Pichler</p>
-      <p>photos by Philipp Friedrich</p>
-    </div>
+    <div id='imgholder'>
+      <div class='infotext'>
 
-    <div class="frame">
-      <p>"Fabulant" Eva said when she saw the objects a few days ago.</p>
-      <p>Friends wrote down their adventure tales for me and these are their travel companions.</p>
-      <p>
-        with Tenzing Barshee, Sho Hasegawa,
-        Philipp Köster, Mariko Minoguchi,
-        Sarah Octobre, Rebekka Seubert
-      </p>
-    </div>
+        <p class="backlink"><a href="../">&lt;&lt; Gärtnergasse</a></p>
+        <p class="prespace"><b>Philip Pichler - Tinte</b><br />
+        17th – 23rd October, 2016</p>
 
-    <div class="frame">
-      <img src="{{ DIR }}img/01.jpg">
-      <img src="{{ DIR }}img/02.jpg">
-      <img src="{{ DIR }}img/03.jpg">
-      <img src="{{ DIR }}img/04.jpg">
-      <img src="{{ DIR }}img/05.jpg">
-      <img src="{{ DIR }}img/06.jpg">
-      <img src="{{ DIR }}img/07.jpg">
-      <img src="{{ DIR }}img/08.jpg">
-    </div>
-    <div id="container" class="frame">
+        <p>"Fabulant" Eva said when she saw the objects a few days ago.</p>
+        <p>Friends wrote down their adventure tales for me and these are their travel companions.</p>
+        <p>with Tenzing Barshee, Sho Hasegawa, Philipp Köster, Mariko Minoguchi, Sarah Octobre, Rebekka Seubert</p>
+        <p>invited by Eugen Wist</p>
+        <p>Readers: Julia Znoj, Yuri Minoguchi, Philip Pichler</p>
+        <p>Photos: Philipp Friedrich</p>
+
+        <p class="txtright">scroll to the right for photos &gt;&gt;</p>
+
+        </div>
+
+        <img src="{{ DIR }}img/01.jpg">
+        <img src="{{ DIR }}img/02.jpg">
+        <img src="{{ DIR }}img/03.jpg">
+        <img src="{{ DIR }}img/04.jpg">
+        <img src="{{ DIR }}img/05.jpg">
+        <img src="{{ DIR }}img/06.jpg">
+        <img src="{{ DIR }}img/07.jpg">
+        <img src="{{ DIR }}img/08.jpg">
+      </div>
+
+    <div id='container'>
       <canvas id="canvas"></canvas>
     </div>
-    <div class="bbplayer frame">
+
+    <div class="bbplayer">
       <span class="bb-rewind"></span>
       <span class="bb-play"></span>
       <span class="bb-forward"></span>
@@ -48,17 +56,18 @@
           <span class="bb-trackLength">--:--</span>
         </div>
       </div>
+
       <audio loop>
-        <source src="./media/1.mp3" type="audio/mp3">
-        <source src="./media/2.mp3" type="audio/mp3">
-        <source src="./media/3.mp3" type="audio/mp3">
-        <source src="./media/4.mp3" type="audio/mp3">
-        <source src="./media/5.mp3" type="audio/mp3">
-        <source src="./media/6.mp3" type="audio/mp3">
+        <source src="{{ DIR }}media/1.mp3" type="audio/mp3" />
+        <source src="{{ DIR }}media/2.mp3" type="audio/mp3" />
+        <source src="{{ DIR }}media/3.mp3" type="audio/mp3" />
+        <source src="{{ DIR }}media/4.mp3" type="audio/mp3" />
+        <source src="{{ DIR }}media/5.mp3" type="audio/mp3" />
+        <source src="{{ DIR }}media/6.mp3" type="audio/mp3" />
       </audio>
     </div>
   </block>
   <block name="scripts">
-    <script src="./tinte.js"></script>
+    <script src="{{ DIR }}js/tinte.js"></script>
   </block>
 </extends>

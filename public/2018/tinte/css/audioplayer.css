@@ -1,0 +1,17 @@
+@charset 'UTF-8';/*
+Optional styling for bbplayer elements.
+*/
+.bbplayer{font:200 14px Inconsolata,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#000;display:inline-block;position:fixed;top:5px;right:5px;}
+.bb-play{display:inline-block;vertical-align:middle;height:26px;width:26px;background:transparent;background-image:url("./play.png");background-repeat:no-repeat;background-position:7px center;cursor:pointer;}
+.bb-playing{vertical-align:middle;background-image:url("./pause.png");background-position:center center;}
+.bb-forward{vertical-align:middle;display:inline-block;height:26px;width:26px;background:transparent;background-image:url("./forward.png");background-position:center;background-repeat:no-repeat;cursor:pointer;}
+.bb-rewind{vertical-align:middle;display:inline-block;height:26px;width:26px;background:transparent;background-image:url("./rewind.png");background-position:center;background-repeat:no-repeat;cursor:pointer;}
+.bb-track-display span{margin:0 0.4em 0;}
+.bb-trackTime{display:inline-block;vertical-align:top;font-size:12px;}
+.bb-trackLength{display:inline-block;vertical-align:top;font-size:12px;}
+.bb-trackTitle{display:inline-block;vertical-align:top;font-weight:bold;overflow:hidden;text-align:center;font-size:12px;}
+.bb-artist{font-size:14px;}
+.bb-album{font-size:14px;}
+.bbplayer div.playerWindow{display:inline-block;vertical-align:middle;line-height:22px;text-align:center;padding:0px 5px 0 5px;background:rgba(255,255,255,0.3);margin-left:8px;}
+@media all and (max-width:480px){.bbplayer{font:200 10 Inconsolata,"Helvetica Neue",Helvetica,Arial,sans-serif;display:inline-block;} .bb-track-display{font-size:10pt;} .bb-album-display{display:none;} .bb-album{font-size:10px;}}
+/*# sourceMappingURL=audioplayer.css.map */
