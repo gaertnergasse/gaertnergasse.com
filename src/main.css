@@ -82,6 +82,15 @@ iframe
   max-height 90vh
   max-width 100%
 
+.col
+  display inline-block
+  width 100%
+
+  iframe,
+  img
+    float left
+    width 50%
+
 .about
   margin 5em 0 2em
 
