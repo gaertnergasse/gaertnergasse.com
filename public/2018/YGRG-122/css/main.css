@@ -1,0 +1,7 @@
+body{max-width:800px;}
+.frame div img{margin:0 auto;}
+.frame img{padding:75px 0 75px 0;width:auto;display:block;}
+.frame img.left{padding-left:0;}
+.frame img.right{display:block;margin:auto 0 auto auto;}
+.frame img.center{max-width:100%;margin:0 auto;}
+/*# sourceMappingURL=main.css.map */
