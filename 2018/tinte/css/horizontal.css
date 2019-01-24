@@ -2,11 +2,10 @@ html,body{padding:0;margin:0;height:100%;overflow-y:hidden;max-width:inherit;wid
 canvas{margin-left:-40px;position:fixed;bottom:0px;left:0px;z-index:-10;}
 #imgholder img{display:inline-block;position:relative;height:100%;z-index:-12;width:auto;max-width:inherit;max-height:inherit;margin:0 0.5em;}
 #imgholder{white-space:nowrap;height:100%;}
-.infotext,#scrollinfo{display:inline-block;padding:20px 40px 10px 50px;width:45%;white-space:normal;}
+.infotext,#scrollinfo{display:inline-block;padding:0 40px 10px 50px;width:45%;white-space:normal;font-weight:400;}
 .infotext{vertical-align:top;}
 .txtright{text-align:right;padding-top:16px;}
 .backlink{margin-left:0px;}
-.prespace{padding-top:16px;}
 p{font-family:'Inconsolata',monospace;font-size:14px;}
 a{color:#000;}
 a:hover{color:#666;}
