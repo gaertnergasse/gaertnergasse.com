@@ -34,16 +34,16 @@ canvas{
 
 .infotext, #scrollinfo {
   display: inline-block;
-  padding: 20px 40px 10px 50px;
+  padding: 0 40px 10px 50px;
   width: 45%;
   white-space: normal;
+  font-weight: 400;
 }
 
 .infotext { vertical-align: top; }
 
 .txtright { text-align: right; padding-top: 16px;}
 .backlink { margin-left: 0px; }
-.prespace { padding-top: 16px; }
 
 p {
   font-family: 'Inconsolata', monospace;
