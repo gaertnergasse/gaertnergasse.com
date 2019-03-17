@@ -15,4 +15,5 @@ module.exports = {
   MAX_IMAGE_WIDTH: 1500,
   MAX_IMAGE_HEIGHT: 2500,
   IMAGE_QUALITY: 90,
+  OUT_DIR: 'docs',
 }
